@@ -1,4 +1,3 @@
-
 enum Note {
     //% blockIdentity=music.noteFrequency enumval=262
     C = 262,
@@ -173,6 +172,8 @@ enum MusicEvent {
 
 
 
+
+
 //% weight=0 color=#3CB371 icon="\uf0ad" block="Tools"
 namespace tools {
     let beatsPerMinute: number = 120;
@@ -191,14 +192,20 @@ namespace tools {
      * @param frequency pitch of the tone to play in Hertz (Hz), eg: Note.C
      * @param ms tone duration in milliseconds (ms)
      */
-    //% weight=90
+    //% help=music/play-tone weight=90
     //% blockId=device_play_note block="play|tone %note=device_note|for %duration=device_beat" blockGap=8
     //% parts="headphone"
     //% useEnumVal=1
     export function playTone(frequency: number, ms: number): void {
+        if (_playTone) _playTone(frequency, ms);
         else pins.analogPitch(frequency, ms);
     }
 
+
+
+
+
+    
     /**
     * 計算長方形面積，並回傳
     */

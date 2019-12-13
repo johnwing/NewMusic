@@ -174,7 +174,7 @@ enum MusicEvent {
  */
 //% color=#E63022 weight=106 icon="\uf025"
 //% weight=0 color=#3CB371 icon="\uf0ad" block="Music2"
-namespace music2 {
+namespace music {
     let beatsPerMinute: number = 120;
      //% whenUsed
      const freqs = hex`

@@ -26,49 +26,49 @@ THE SOFTWARE.
 // Melodies from file microbitmusictunes.c https://github.com/bbcmicrobit/MicroPython
 
 enum Melodies {
-    //% block="dadadum" blockIdentity=music2.builtInMelody
+    //% block="dadadum" blockIdentity=music.builtInMelody
     Dadadadum = 0,
-    //% block="entertainer" blockIdentity=music2.builtInMelody
+    //% block="entertainer" blockIdentity=music.builtInMelody
     Entertainer,
-    //% block="prelude" blockIdentity=music2.builtInMelody
+    //% block="prelude" blockIdentity=music.builtInMelody
     Prelude,
-    //% block="ode" blockIdentity=music2.builtInMelody
+    //% block="ode" blockIdentity=music.builtInMelody
     Ode,
-    //% block="nyan" blockIdentity=music2.builtInMelody
+    //% block="nyan" blockIdentity=music.builtInMelody
     Nyan,
-    //% block="ringtone" blockIdentity=music2.builtInMelody
+    //% block="ringtone" blockIdentity=music.builtInMelody
     Ringtone,
-    //% block="funk" blockIdentity=music2.builtInMelody
+    //% block="funk" blockIdentity=music.builtInMelody
     Funk,
-    //% block="blues" blockIdentity=music2.builtInMelody
+    //% block="blues" blockIdentity=music.builtInMelody
     Blues,
-    //% block="birthday" blockIdentity=music2.builtInMelody
+    //% block="birthday" blockIdentity=music.builtInMelody
     Birthday,
-    //% block="wedding" blockIdentity=music2.builtInMelody
+    //% block="wedding" blockIdentity=music.builtInMelody
     Wedding,
-    //% block="funereal" blockIdentity=music2.builtInMelody
+    //% block="funereal" blockIdentity=music.builtInMelody
     Funeral,
-    //% block="punchline" blockIdentity=music2.builtInMelody
+    //% block="punchline" blockIdentity=music.builtInMelody
     Punchline,
-    //% block="baddy" blockIdentity=music2.builtInMelody
+    //% block="baddy" blockIdentity=music.builtInMelody
     Baddy,
-    //% block="chase" blockIdentity=music2.builtInMelody
+    //% block="chase" blockIdentity=music.builtInMelody
     Chase,
-    //% block="ba ding" blockIdentity=music2.builtInMelody
+    //% block="ba ding" blockIdentity=music.builtInMelody
     BaDing,
-    //% block="wawawawaa" blockIdentity=music2.builtInMelody
+    //% block="wawawawaa" blockIdentity=music.builtInMelody
     Wawawawaa,
-    //% block="jump up" blockIdentity=music2.builtInMelody
+    //% block="jump up" blockIdentity=music.builtInMelody
     JumpUp,
-    //% block="jump down" blockIdentity=music2.builtInMelody
+    //% block="jump down" blockIdentity=music.builtInMelody
     JumpDown,
-    //% block="power up" blockIdentity=music2.builtInMelody
+    //% block="power up" blockIdentity=music.builtInMelody
     PowerUp,
-    //% block="power down" blockIdentity=music2.builtInMelody
+    //% block="power down" blockIdentity=music.builtInMelody
     PowerDown,
 }
 
-namespace music2 {
+namespace music {
 
     export function getMelody(melody: Melodies): string[] {
         switch (melody) {

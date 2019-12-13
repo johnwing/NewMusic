@@ -9,8 +9,6 @@
     "files": [
         "README.md",
         "main.ts",
-        "music.ts",
-        "melodies.ts",
         "_locales/zh/tools-strings.json"
     ],
     "public": true

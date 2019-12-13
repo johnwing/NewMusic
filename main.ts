@@ -8,6 +8,19 @@
 namespace tools {
 
 
+    /**
+     * Plays a tone through pin ``P0`` for the given duration.
+     * @param frequency pitch of the tone to play in Hertz (Hz), eg: Note.C
+     * @param ms tone duration in milliseconds (ms)
+     */
+    //% help=music/play-tone weight=90
+    //% blockId=device_play_note block="play|tone %note=device_note|for %duration=device_beat" blockGap=8
+    //% parts="headphone"
+    //% useEnumVal=1
+    export function playTone(frequency: number, ms: number): void {
+        pins.analogPitch(frequency, ms);
+    }
+
 
 
 

@@ -11,9 +11,9 @@ namespace tools {
     /**
     * 計算長方形面積，不回傳，只顯示在LED
     */
-    //% blockId="ledOfRectangle" block="show area of rectangle length %length|width %width"
+    //% blockId="ledOfRectangle" block="show length of rectangle length %length|width %width"
     //% blockGap=2 weight=1
     export function ledOfRectangle(length: number, width:number): void {
-        basic.showNumber(length*width)
+        basic.showNumber((length+width)*2)
     }
 }

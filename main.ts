@@ -1,5 +1,5 @@
-//% weight=0 color=#3CB371 icon="\uf0ad" block="Tools"
-namespace music {
+//% weight=0 color=#3CB371 icon="\uf0ad" block="Aist2010"
+namespace aist2010 {
     /**
     * 計算長方形面積，並回傳
     */

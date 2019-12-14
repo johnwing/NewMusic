@@ -3,7 +3,7 @@ namespace music {
     /**
     * 計算長方形面積，並回傳
     */
-    //% blockId="areaOfRectangle" block="area of rectangle length %length|width %width"
+    //% blockId="areaOfRectangle" block="area2 of rectangle length %length|width %width"
     //% blockGap=2 weight=0 blockExternalInputs=true
     export function areaOfRectangle(length: number, width:number): number {
         return length*width

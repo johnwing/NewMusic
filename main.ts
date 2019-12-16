@@ -33,7 +33,7 @@ namespace aist2010 {
     }
 
     /**
-     * Send human readable MIDI messages via serial
+     * Send human readable MIDI messages via serials
      */
     //% blockId=midi_serial_transport block="midi use serial"
     //% weight=1 blockGap=8

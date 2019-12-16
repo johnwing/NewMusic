@@ -60,11 +60,7 @@ namespace aist2010 {
     export function sendMessage(data: number[]) {
         if (!transport) return;
 
-        const buf = pins.createBuffer(data.length);
-        for (let i = 0; i < data.length; ++i)
-            buf.setNumber(NumberFormat.UInt8LE, i, data[i])
-        control.__midiSend(buf); // simulator support
-        transport(buf);
+
     }
 
 
